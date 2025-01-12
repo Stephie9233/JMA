@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/jmaTel.ico">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">    
+    <title>JMA-TEL || Accueil</title>
+</head>
+<body>
+    <header class="body__header">
+        <!--BANDEROLLE LOGO-->
+        <section class="body__header--logo">
+            <img src="assets/img/LOGO-JMATEL.svg" alt="Logo JMA-TEL" class="body__header--logo-img">
+        </section>
+        <section class="body__header--nav">
+            <ul class="body__header--nav-ctn">
+                <li class="body__header--nav-ctn-list">
+                    <a href="../prestations/prestations.html" class="body__header--nav-ctn-list-link" target="_blank">Electricité générale</a>
+                </li>
+                <li class="body__header--nav-ctn-list">
+                    <a href="../prestations/particuliers/particuliers.html" class="body__header--nav-ctn-list-link" target="_blank">Particuliers</a>
+                </li>
+                <li class="body__header--nav-ctn-list">
+                    <a href="../prestations/pro/pro.html" class="body__header--nav-ctn-list-link" target="_blank">Professionnels</a>
+                </li>
+            </ul>
+        </section>
+    </header>
+
+    <main class="body__main">
+        <!--BOUTON CONTACT-->
+        <article class="body__main--contact">
+        <a href="contact.html" class="body__main--contact-link" target="_blank">Contact</a>
+        </article>
+
+        <!--ARTICLE 1-->    
+        <section class="body__main--part">
+            <img src="assets/img/vitrine.png" alt="vitrine locaux JMA-TEL" class="body__main--part-img">
+            <article class="body__main--part-ctn">
+                <h2 class="body__main--part-ctn-title">Notre entreprise</h2>
+                <p class="body__main--part-ctn-intro">Créée en 1994, notre entreprise s'est diversifiée grâce aux connaissances et aux aptitudes de nos collaborateurs... 
+                <button class="body__main--part-ctn-btn" id="enterprise-link">En lire plus</button>
+            </article>
+        </section>
+
+        <!--ARTICLE 2-->        
+            <section class="body__main--part">
+                <img src="assets/img/services.jpg" alt="Tableau électrique" class="body__main--part-img">
+                <article class="body__main--part-ctn">
+                    <h2 class="body__main--part-ctn-title">Nos services</h2>
+                    <p class="body__main--part-ctn-intro">Nous mettons notre expérience et notre savoir faire au service de vos différents projets, depuis près de 30 ans.</p>
+                    <button class="body__main--part-ctn-btn" id="services-link">En lire plus</button>
+                </article>
+            </section>
+        
+
+        <!--ARTICLE 3-->
+            <section class="body__main--part">
+                <img src="assets/img/team.jpg" alt="Collaborateurs" class="body__main--part-img">
+                <article class="body__main--part-ctn">
+                    <h2 class="body__main--part-ctn-title">Nos équipes</h2>
+                    <p class="body__main--part-ctn-intro">Plus qu'une entreprise, JMA-TEL est une famille qui accompagne, forme et fait évoluer ses salariés.</p> 
+                    <button class="body__main--part-ctn-btn" id="rh-link">En lire plus</button>
+                </article>
+            </section>
+    </main>
+    <dialog id="entreprise">
+        <p class="body__dialog--close close" >X</p>
+        <article class="body__dialog--ctn">            
+            <h2 class="body__dialog--ctn-title">Notre entreprise</h2>
+            <p class="body__dialog--ctn-text">Créée en 1994, notre entreprise s'est diversifiée grâce aux connaissances et aux aptitudes de nos collaborateurs.  Les différents services (techniciens, chargés de projet, ingénieurs et l'administration) joignent leurs talents pour vous proposer un service sur mesure et de qualité.</p>
+            <p class="body__dialog--ctn-text">Nous intervenons auprès des professionnels comme des particuliers et répondons à des marchés.</p>
+        </article>
+        <button class="body__dialog--close-btn close">Fermer</button>
+    </dialog>
+    <dialog id="services">
+        <p class="body__dialog--close close">X</p>
+        <article class="body__dialog--ctn">
+            <h2 class="body__dialog--ctn-title">Nos services</h2>
+            <p class="body__dialog--ctn-text">Nous mettons notre expérience et notre savoir faire au service de vos différents projets, depuis près de 30 ans.</p>
+            <p class="body__dialog--ctn-text">Nous assurons la vente et la pose de tous types de matériels électriques. Nous sommes également réputés pour notre SAV réactif.</p>
+            <p class="body__dialog--ctn-text">Nous assurons la vente et la pose de tous types de matériels électriques. Nous sommes également réputés pour notre SAV réactif.</p>
+        </article>
+        <button class="body__dialog--close-btn close" >Fermer</button>
+    </dialog>
+    <dialog id="rh">
+        <p class="body__dialog--close close">X</p>            <article class="body__dialog--ctn">
+            <h2 class="body__dialog--ctn-title">Nos équipes</h2>
+            <p class="body__dialog--ctn-text">Plus qu'une entreprise, JMA-TEL est une famille qui accompagne, forme et fait évoluer ses salariés. Par cette politique d'investissement dans la formation et l'évolution interne, nous pouvons nous satisfaire d'avoir un très faible turn over.</p> 
+            <p class="body__dialog--ctn-text">Nous pouvons ainsi garantir une équipe de techniciens compétents et ayant au minimum une dizaine d'année d'expérience, et l'habitude de travailler ensemble depuis des années. Cela s'en ressent dans la qualité de nos ouvrages, pour le plus grand bonheur de nos clients. </p>
+        </article>
+        <button class="body__dialog--close-btn close" >Fermer</button>
+    </dialog>
+
+    <footer class="body__footer">
+        <!--BANDEROLLE LOCALISATION-->
+        <article class="body__footer--part">
+            <h3 class="body__footer--part-title">Plan du site</h3>
+            <ul class="body__footer--part-ctn">
+                <li class="body__footer--part-list">
+                    <a href="index.html" class="body__footer--part-list-link" target="_blank">Accueil</a>
+                </li>
+                <li class="body__footer--part-list">
+                    <a href="prestations.html
+                    " class="body__footer--part-list-link" target="_blank">Nos prestations</a>
+                </li>
+                <li class="body__footer--part-list">
+                    <a href="contact.html" class="body__footer--part-list-link" target="_blank">Contact</a>
+                </li>
+                <li class="body__footer--part-list">
+                    <a href="contact.html" class="body__footer--part-list-link" target="_blank">Mentions légales</a>
+                </li>
+            </ul>
+        </article>
+       
+    </footer>
+<script src="index.js"></script>
+</body>
+</html>
